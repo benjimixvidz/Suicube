@@ -15,9 +15,6 @@ var shapes_instance
 var fall_time = 0.5
 var fall_timer = 0.0
 
-# Score
-var score = 0
-
 # Variable pour la pause du jeu
 var is_paused = false
 
@@ -36,6 +33,9 @@ func _ready():
 	shapes_instance = piece_spawner.new()
 	
 	spawn_new_piece()
+	
+	# Réinitialiser le score si nécessaire
+	Global.score = 0
 
 # Créer la grille
 func initialize_grid():
@@ -238,12 +238,12 @@ func update_score(lines_cleared):
 		2: points = 300
 		3: points = 500
 		4: points = 800
-	score += points
-	print("Score: ", score)  # Remplacez par une mise à jour de l'interface utilisateur
+	Global.score += points
+	print("Score: ", Global.score)  # Remplacez par une mise à jour de l'interface utilisateur
 
 # Redémarrer le jeu
 func restart_game():
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://GameOver.tscn")
 
 # Faire tourner la pièce en vérifiant la validité
 func rotate_current_piece():

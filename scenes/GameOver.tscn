@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyx3l86yco5r7"]
+
+[ext_resource type="Script" path="res://scripts/GameOver.gd" id="1_hhlde"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_hhlde")
+
+[node name="Ecran de GameOver" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GameOver" type="Label" parent="Ecran de GameOver"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "!! GAME OVER !!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ScoreLabel" type="Label" parent="Ecran de GameOver"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="ReplayButton" type="Button" parent="Ecran de GameOver"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Rejouer"
+
+[node name="QuitButton" type="Button" parent="Ecran de GameOver"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Quitter"
