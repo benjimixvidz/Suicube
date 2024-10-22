@@ -1,0 +1,16 @@
+# Fichiers et dossiers générés par Godot à ignorer
+.import/
+.godot/
+.mono/
+.cache/
+.vs/
+export_presets.cfg
+
+# Fichiers système à ignorer
+.DS_Store
+Thumbs.db
+
+# Fichiers de sauvegarde
+*.tmp
+*.old
+*.backup
