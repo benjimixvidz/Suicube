@@ -2,7 +2,7 @@
 
 *A Tetris clone developed with the Godot Engine*
 
-![Suicube Logo](path/to/logo.png)
+![DALL·E 2024-10-23 10 12 19 - Create a retro pixel art game cover for a game called 'Suicube'  The cover should depict a Tetris-like scene with pieces stacking, small details like ](https://github.com/user-attachments/assets/8ae80e09-2d3b-40b6-bc27-d2752c4380de)
 
 ## 📋 Table of Contents
 - [Introduction](#-introduction)
@@ -22,8 +22,7 @@
 
 ## 📷 Screenshots
 
-![Gameplay Screenshot](path/to/screenshot1.png)
-![Main Menu](path/to/screenshot2.png)
+Soon
 
 ## 🚀 Features
 
