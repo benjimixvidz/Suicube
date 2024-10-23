@@ -1,53 +1,53 @@
 # **Suicube**
 
-*Un clone de Tetris développé avec le moteur Godot.*
+*A Tetris clone developed using the Godot Engine.*
 
-![Logo de Suicube](./assets/logo.png) <!-- Remplacez par le chemin vers votre logo -->
+![Suicube Logo](./assets/logo.png) <!-- Replace with the path to your logo image -->
 
-## 📋 **Table des matières**
+## 📋 **Table of Contents**
 
 - [Introduction](#introduction)
-- [Captures d'écran](#captures-décran)
-- [Fonctionnalités](#fonctionnalités)
-- [Prérequis](#prérequis)
+- [Screenshots](#screenshots)
+- [Features](#features)
+- [Requirements](#requirements)
 - [Installation](#installation)
-- [Comment jouer](#comment-jouer)
-- [Contrôles](#contrôles)
-- [Contribuer](#contribuer)
-- [Licence](#licence)
-- [Remerciements](#remerciements)
+- [How to Play](#how-to-play)
+- [Controls](#controls)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
 ## 📖 **Introduction**
 
-**Suicube** est un jeu de puzzle inspiré du classique **Tetris**, développé en utilisant le moteur de jeu open-source [Godot Engine](https://godotengine.org/). Ce projet a été créé pour apprendre le développement de jeux avec Godot, ainsi que pour pratiquer l'utilisation de Git et GitHub pour le contrôle de version.
+**Suicube** is a puzzle game inspired by the classic **Tetris**, developed using the open-source game engine [Godot Engine](https://godotengine.org/). This project was created to learn game development with Godot and to practice using Git and GitHub for version control.
 
-## 📷 **Captures d'écran**
+## 📷 **Screenshots**
 
-<!-- Ajoutez ici des captures d'écran de votre jeu -->
-![Capture d'écran du jeu](./assets/screenshot1.png)
-![Capture d'écran du jeu](./assets/screenshot2.png)
+<!-- Add screenshots of your game here -->
+![Game Screenshot](./assets/screenshot1.png)
+![Game Screenshot](./assets/screenshot2.png)
 
-## 🚀 **Fonctionnalités**
+## 🚀 **Features**
 
-- 🎮 Gameplay classique de Tetris avec des contrôles intuitifs.
-- 🔄 Rotation des pièces et détection des collisions.
-- 🏆 Système de score avec calcul des points pour les lignes complétées.
-- 🎯 Écran de Game Over avec options pour rejouer ou quitter.
-- ⏸️ Mise en pause du jeu.
-- 🖥️ Interface utilisateur simple et claire.
+- 🎮 Classic Tetris gameplay with intuitive controls.
+- 🔄 Piece rotation and collision detection.
+- 🏆 Scoring system with points for completed lines.
+- 🎯 Game Over screen with options to replay or quit.
+- ⏸️ Game pause functionality.
+- 🖥️ Simple and clear user interface.
 
-## 📦 **Prérequis**
+## 📦 **Requirements**
 
-- **Godot Engine 4.x** : Téléchargez-le depuis le [site officiel de Godot](https://godotengine.org/).
-- **Git** : Assurez-vous que Git est installé sur votre système. Vous pouvez le télécharger depuis [le site officiel de Git](https://git-scm.com/downloads).
+- **Godot Engine 4.x**: Download from the [official Godot website](https://godotengine.org/).
+- **Git**: Ensure Git is installed on your system. Download it from the [official Git website](https://git-scm.com/downloads).
 
 ## 💾 **Installation**
 
-1. **Cloner le dépôt GitHub**
+1. **Clone the GitHub repository**
 
-   Ouvrez votre terminal et exécutez la commande suivante :
+   Open your terminal and run the following command:
 
    ```bash
-   git clone https://github.com/votre_nom_utilisateur/suicube.git
+   git clone https://github.com/your_username/suicube.git
